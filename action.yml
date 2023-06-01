@@ -1,5 +1,5 @@
-name: "Hello World"
-description: "Greet someone and record the time"
+name: "assume-aws-role-from-gcp-action"
+description: "Assume AWS Role with GCP Service Account OIDC Token"
 branding:
   icon: "cloud"
   color: "orange"
