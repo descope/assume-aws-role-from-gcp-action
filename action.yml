@@ -21,7 +21,7 @@ outputs:
     description: "The AWS account ID for the provided credentials"
 runs:
   using: "docker"
-  image: "ghcr.io/omercnet/assume-aws-role-from-gcp-action"
+  image: "docker://ghcr.io/omercnet/assume-aws-role-from-gcp-action"
   args:
     - ${{ inputs.role-to-assume }}
     - ${{ inputs.role-session-name }}
