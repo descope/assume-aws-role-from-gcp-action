@@ -3,11 +3,22 @@
 aws --version
 gcloud --version
 
+ROLE_TO_ASSUME=$1
+ROLE_SESSION_NAME=$2
+ROLE_DURATION_SECONDS=$3
+
 echo "::debug::Get GCP Identity Token"
 GOOGLE_CREDENTIAL=$(gcloud auth print-identity-token)
+echo "::add-mask::$GOOGLE_CREDENTIAL"
+echo "::debug::Assume AWS Role ${ROLE_TO_ASSUME} with session name ${ROLE_SESSION_NAME} and duration ${ROLE_DURATION_SECONDS}"
+CREDENTIALS_CMD=aws sts assume-role-with-web-identity \
+    --role-arn $ROLE_TO_ASSUME \
+    --role-session-name $ROLE_SESSION_NAME \
+    --duration-seconds $ROLE_DURATION_SECONDS \
+    --web-identity-token $GOOGLE_CREDENTIAL
 
-echo "::debug::Assume AWS Role $1 with session name $2 and duration $3"
-CREDENTIALS=$(aws sts assume-role-with-web-identity --role-arn "$1" --role-session-name "$2" --duration-seconds "$3" --web-identity-token "$GOOGLE_CREDENTIAL")
+echo "::debug::Run command: $CREDENTIALS_CMD"
+CREDENTIALS=$($CREDENTIALS_CMD)
 # {
 #     "Credentials": {
 #         "AccessKeyId": "ASIAN...KAGJO",
