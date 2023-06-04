@@ -1,5 +1,8 @@
 #!/bin/sh -l
 
+aws --version
+gcloud --version
+
 echo "::debug::Get GCP Identity Token"
 GOOGLE_CREDENTIAL=$(gcloud auth print-identity-token)
 

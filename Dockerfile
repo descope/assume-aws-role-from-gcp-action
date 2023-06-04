@@ -1,6 +1,6 @@
-FROM python:3-alpine
+FROM gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine
 
-RUN apk add --no-cache jq && pip3 install awscli gcloud
+RUN apk add --no-cache jq aws-cli
 
 COPY entrypoint.sh /entrypoint.sh
 
