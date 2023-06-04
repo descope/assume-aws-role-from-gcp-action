@@ -7,7 +7,7 @@ echo "::debug::Get GCP Identity Token"
 GOOGLE_CREDENTIAL=$(gcloud auth print-identity-token)
 
 echo "::debug::Assume AWS Role $1 with session name $2 and duration $3"
-CREDENTIALS=$(aws sts assume-role-with-web-identity --role-arn $1 --role-session-name $2 --duration-seconds $3 --web-identity-token $GOOGLE_CREDENTIAL)
+CREDENTIALS=$(aws sts assume-role-with-web-identity --role-arn "$1" --role-session-name "$2" --duration-seconds "$3" --web-identity-token "$GOOGLE_CREDENTIAL")
 # {
 #     "Credentials": {
 #         "AccessKeyId": "ASIAN...KAGJO",
