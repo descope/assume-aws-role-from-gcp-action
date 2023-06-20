@@ -1,28 +1,24 @@
-name: "assume-aws-role-from-gcp-action"
-description: "Assume AWS Role with GCP Service Account OIDC Token"
+name: 'assume-aws-role-from-gcp-action'
+description: 'Assume AWS Role with GCP Service Account OIDC Token'
 branding:
-  icon: "cloud"
-  color: "orange"
+  icon: 'cloud'
+  color: 'orange'
 inputs:
-  role-to-assume:
-    description: >-
-      Use the provided credentials to assume an IAM role and configure the Actions
-      environment with the assumed role credentials rather than with the provided
-      credentials
-    required: false
-  role-session-name:
-    description: "Role session name (default: GitHubActions)"
-    default: "GitHubActions"
-  role-duration-seconds:
-    description: "Role duration in seconds (default: 6 hours, 1 hour for OIDC/specified aws-session-token)"
-    default: "21600"
+  aws_region:
+    description: 'AWS Region (default: us-east-1)'
+    default: 'us-east-1'
+  role_to_assume:
+    description: 'ARN of the role to assume (e.g. arn:aws:iam::123456789012:role/role-name)'
+    required: true
+  role_session_name:
+    description: 'Role session name (default: GitHubActions)'
+    default: 'GitHubActions'
+  role_duration_seconds:
+    description: 'Role duration in seconds (default: 6 hours, 1 hour for OIDC/specified aws-session-token)'
+    default: '21600'
 outputs:
-  aws-account-id:
-    description: "The AWS account ID for the provided credentials"
+  aws_account_id:
+    description: 'The AWS account ID for the provided credentials'
 runs:
-  using: "docker"
-  image: "docker://ghcr.io/omercnet/assume-aws-role-from-gcp-action"
-  args:
-    - ${{ inputs.role-to-assume }}
-    - ${{ inputs.role-session-name }}
-    - ${{ inputs.role-duration-seconds }}
+  using: 'node16'
+  main: 'dist/index.js'
