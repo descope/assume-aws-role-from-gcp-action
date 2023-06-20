@@ -13,12 +13,11 @@ jobs:
       - uses: actions/checkout@v3
       - run: |
           yarn install
-      - with:
-          aws_region: us-east-1
-          role_to_assume: arn:aws:iam::221752815162:role/GithubActionsTest
-          role_session_name: GithubActionsTest
-          role_duration_seconds: 900
-
+      - env:
+          INPUT_AWS_REGION: us-east-1
+          INPUT_ROLE_TO_ASSUME: arn:aws:iam::221752815162:role/GithubActionsTest
+          INPUT_ROLE_SESSION_NAME: GithubActionsTest
+          INPUT_ROLE_DURATION_SECONDS: 900
         run: |
           yarn all
   test: # make sure the action works on a clean machine without building
