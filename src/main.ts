@@ -1,9 +1,18 @@
 import * as core from '@actions/core'
 import * as google from 'googleapis'
 import {STS} from '@aws-sdk/client-sts'
+import path from 'path'
+import fs from 'fs'
 
 async function run(): Promise<void> {
   try {
+    if (process.env.GOOGLE_CREDENTIALS) {
+      core.debug('Writing Google credentials from env to file')
+      const GOOGLE_APPLICATION_CREDENTIALS = path.join(__dirname, 'gcp-credentials.json')
+      fs.writeFileSync(GOOGLE_APPLICATION_CREDENTIALS, process.env.GOOGLE_CREDENTIALS)
+      process.env.GOOGLE_APPLICATION_CREDENTIALS = GOOGLE_APPLICATION_CREDENTIALS
+    }
+
     core.debug('Getting inputs')
     const roleToAssume = core.getInput('role_to_assume', {required: true})
     const roleSessionName = core.getInput('role_session_name') ?? 'GithubActions'
