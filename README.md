@@ -9,17 +9,17 @@ If you are not hosting your own runners, you probably do not need this.
 
 ## Inputs
 
-## `role-to-assume`
+## `role_to_assume`
 
 **Required** Use the provided credentials to assume an IAM role and configure the Actions
 environment with the assumed role credentials rather than with the provided
 credentials
 
-## `role-session-name`
+## `role_session_name`
 
 **Required** Role session name (default: GitHubActions)
 
-## `role-duration-seconds`
+## `role_duration_seconds`
 
 Role duration in seconds (default: 6 hours, 1 hour for OIDC/specified aws-session-token)
 
