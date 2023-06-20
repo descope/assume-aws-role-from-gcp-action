@@ -14,6 +14,7 @@ jobs:
       - run: |
           yarn install
       - env:
+          GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
           INPUT_AWS_REGION: us-east-1
           INPUT_ROLE_TO_ASSUME: arn:aws:iam::221752815162:role/GithubActionsTest
           INPUT_ROLE_SESSION_NAME: GithubActionsTest
