@@ -67,6 +67,8 @@ async function run(): Promise<void> {
     core.exportVariable('AWS_ACCESS_KEY_ID', Credentials.AccessKeyId)
     core.exportVariable('AWS_SECRET_ACCESS_KEY', Credentials.SecretAccessKey)
     core.exportVariable('AWS_SESSION_TOKEN', Credentials.SessionToken)
+    core.exportVariable('AWS_DEFAULT_REGION', region)
+    core.exportVariable('AWS_REGION', region)
 
     core.debug('Setting outputs')
     core.setOutput('aws-account-id', Account)
