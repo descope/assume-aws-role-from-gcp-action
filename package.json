@@ -1,8 +1,8 @@
 {
-  "name": "typescript-action",
+  "name": "assume-aws-role-from-gcp-action",
   "version": "0.0.0",
   "private": true,
-  "description": "TypeScript template action",
+  "description": "Assume an AWS role from a GCP self hosted github runner",
   "main": "lib/main.js",
   "scripts": {
     "build": "tsc",
@@ -16,19 +16,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/actions/typescript-action.git"
+    "url": "https://github.com/descope/assume-aws-role-from-gcp-action.git"
   },
   "keywords": [
     "actions",
     "node",
-    "setup"
+    "gcp",
+    "aws",
+    "self-hosted"
   ],
   "author": "",
   "license": "MIT",
   "dependencies": {
     "@actions/core": "1.10.0",
     "@aws-sdk/client-sts": "3.354.0",
-    "googleapis": "118.0.0"
+    "googleapis": "126.0.1"
   },
   "devDependencies": {
     "@types/node": "18.17.1",
