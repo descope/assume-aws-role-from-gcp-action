@@ -1,8 +1,8 @@
 import * as core from '@actions/core'
-import * as google from 'googleapis'
 import {STS} from '@aws-sdk/client-sts'
-import path from 'path'
 import fs from 'fs'
+import * as google from 'googleapis'
+import path from 'path'
 
 async function run(): Promise<void> {
   try {
