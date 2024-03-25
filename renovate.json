@@ -2,8 +2,7 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["local>omercnet/renovate-config"],
   "postUpgradeTasks": {
-    "commands": ["yarn all"],
-    "fileFilters": ["yarn.lock", "dist/**/*"],
+    "commands": ["corepack enable", "yarn all"],
     "executionMode": "branch"
   }
 }
