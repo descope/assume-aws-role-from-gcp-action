@@ -451,13 +451,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@aws-sdk/types@npm:3.535.0, @aws-sdk/types@npm:^3.222.0":
+"@aws-sdk/types@npm:3.535.0":
   version: 3.535.0
   resolution: "@aws-sdk/types@npm:3.535.0"
   dependencies:
     "@smithy/types": "npm:^2.12.0"
     tslib: "npm:^2.6.2"
   checksum: 10c0/1c8ed3a76b508287ee840a9c37f9df7a382459dfe4d46aa0cf90eddacdf32eae9c0e0d274a18956095e567234d0b07c81ff7d4fbeed3ca3c9caf52ccadcea409
+  languageName: node
+  linkType: hard
+
+"@aws-sdk/types@npm:^3.222.0":
+  version: 3.347.0
+  resolution: "@aws-sdk/types@npm:3.347.0"
+  dependencies:
+    tslib: "npm:^2.5.0"
+  checksum: 10c0/5ab07bf2dbc7bfb615af8a7bda503a0f01b3e7ae9c04df2eb40f402810eb34b5b71b38b6d65d6bddb5e731205670feb67b72c8af4829113a99094a0dbebffac5
   languageName: node
   linkType: hard
 
@@ -669,10 +678,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/helper-validator-identifier@npm:^7.22.20, @babel/helper-validator-identifier@npm:^7.22.5":
+"@babel/helper-validator-identifier@npm:^7.22.20":
   version: 7.22.20
   resolution: "@babel/helper-validator-identifier@npm:7.22.20"
   checksum: 10c0/dcad63db345fb110e032de46c3688384b0008a42a4845180ce7cd62b1a9c0507a1bed727c4d1060ed1a03ae57b4d918570259f81724aaac1a5b776056f37504e
+  languageName: node
+  linkType: hard
+
+"@babel/helper-validator-identifier@npm:^7.22.5":
+  version: 7.22.5
+  resolution: "@babel/helper-validator-identifier@npm:7.22.5"
+  checksum: 10c0/2ff1d3833154d17ccf773b8a71fdc0cd0e7356aa8033179d0e3133787dfb33d97796cbff8b92a97c56268205337dfc720227aeddc677c1bc08ae1b67a95252d7
   languageName: node
   linkType: hard
 
@@ -944,10 +960,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint-community/regexpp@npm:^4.5.1, @eslint-community/regexpp@npm:^4.6.1":
+"@eslint-community/regexpp@npm:^4.5.1":
   version: 4.10.0
   resolution: "@eslint-community/regexpp@npm:4.10.0"
   checksum: 10c0/c5f60ef1f1ea7649fa7af0e80a5a79f64b55a8a8fa5086de4727eb4c86c652aedee407a9c143b8995d2c0b2d75c1222bec9ba5d73dbfc1f314550554f0979ef4
+  languageName: node
+  linkType: hard
+
+"@eslint-community/regexpp@npm:^4.6.1":
+  version: 4.6.2
+  resolution: "@eslint-community/regexpp@npm:4.6.2"
+  checksum: 10c0/da800788298f8419f4c4e04eaa4e3c97e7f57537e822e7b150de662e420e3d437816b863e490807bd0b00e715b0989f9d8864bf54357cbcfa84e4255b910789d
   languageName: node
   linkType: hard
 
@@ -1986,10 +2009,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/json-schema@npm:^7.0.12, @types/json-schema@npm:^7.0.9":
+"@types/json-schema@npm:^7.0.12":
   version: 7.0.15
   resolution: "@types/json-schema@npm:7.0.15"
   checksum: 10c0/a996a745e6c5d60292f36731dd41341339d4eeed8180bb09226e5c8d23759067692b1d88e5d91d72ee83dfc00d3aca8e7bd43ea120516c17922cbcb7c3e252db
+  languageName: node
+  linkType: hard
+
+"@types/json-schema@npm:^7.0.9":
+  version: 7.0.12
+  resolution: "@types/json-schema@npm:7.0.12"
+  checksum: 10c0/2c39946ae321fe42d085c61a85872a81bbee70f9b2054ad344e8811dfc478fdbaf1ebf5f2989bb87c895ba2dfc3b1dcba85db11e467bbcdc023708814207791c
   languageName: node
   linkType: hard
 
@@ -6025,7 +6055,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:^7.3.5, semver@npm:^7.3.7, semver@npm:^7.5.3, semver@npm:^7.5.4":
+"semver@npm:^7.3.5":
   version: 7.6.0
   resolution: "semver@npm:7.6.0"
   dependencies:
@@ -6033,6 +6063,28 @@ __metadata:
   bin:
     semver: bin/semver.js
   checksum: 10c0/fbfe717094ace0aa8d6332d7ef5ce727259815bd8d8815700853f4faf23aacbd7192522f0dc5af6df52ef4fa85a355ebd2f5d39f554bd028200d6cf481ab9b53
+  languageName: node
+  linkType: hard
+
+"semver@npm:^7.3.7":
+  version: 7.5.2
+  resolution: "semver@npm:7.5.2"
+  dependencies:
+    lru-cache: "npm:^6.0.0"
+  bin:
+    semver: bin/semver.js
+  checksum: 10c0/d151207ab762a8067f6302076edc04e5b8da2362eb9e3f21c2567ceadfd415064936d215b4aae7791da118c230649d29089be979ffa49c5b56a6bcf82147efdd
+  languageName: node
+  linkType: hard
+
+"semver@npm:^7.5.3, semver@npm:^7.5.4":
+  version: 7.5.4
+  resolution: "semver@npm:7.5.4"
+  dependencies:
+    lru-cache: "npm:^6.0.0"
+  bin:
+    semver: bin/semver.js
+  checksum: 10c0/5160b06975a38b11c1ab55950cb5b8a23db78df88275d3d8a42ccf1f29e55112ac995b3a26a522c36e3b5f76b0445f1eef70d696b8c7862a2b4303d7b0e7609e
   languageName: node
   linkType: hard
 
