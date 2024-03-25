@@ -29,7 +29,7 @@
   "license": "MIT",
   "dependencies": {
     "@actions/core": "1.10.0",
-    "@aws-sdk/client-sts": "3.354.0",
+    "@aws-sdk/client-sts": "3.525.0",
     "googleapis": "126.0.1"
   },
   "devDependencies": {
