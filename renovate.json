@@ -4,5 +4,6 @@
   "postUpgradeTasks": {
     "commands": ["corepack enable", "yarn all"],
     "executionMode": "branch"
-  }
+  },
+  "postUpdateOptions": ["yarnDedupeHighest"]
 }
