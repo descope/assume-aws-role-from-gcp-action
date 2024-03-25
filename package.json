@@ -12,7 +12,7 @@
     "package": "ncc build --source-map --license licenses.txt",
     "test": "jest",
     "start": "ts-node src/main.ts",
-    "all": "yarn run build && yarn run format && yarn run lint && yarn run package && yarn test"
+    "all": "yarn format && yarn lint --fix && yarn build && yarn package && yarn test"
   },
   "repository": {
     "type": "git",
