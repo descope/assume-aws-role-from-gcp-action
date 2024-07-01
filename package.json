@@ -50,7 +50,7 @@
     "ts-node": "^10.9.2",
     "typescript": "<5.2.0"
   },
-  "packageManager": "yarn@4.1.1",
+  "packageManager": "yarn@4.3.0",
   "engines": {
     "node": "^20"
   }
