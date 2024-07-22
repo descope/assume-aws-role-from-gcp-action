@@ -35,8 +35,8 @@
   },
   "devDependencies": {
     "@types/node": "^20",
-    "@typescript-eslint/eslint-plugin": "7.14.1",
-    "@typescript-eslint/parser": "7.14.1",
+    "@typescript-eslint/eslint-plugin": "7.15.0",
+    "@typescript-eslint/parser": "7.15.0",
     "@vercel/ncc": "0.38.1",
     "dotenv": "^16.4.5",
     "eslint": "8.57.0",
@@ -48,7 +48,7 @@
     "prettier": "3.3.2",
     "ts-jest": "29.1.5",
     "ts-node": "^10.9.2",
-    "typescript": "<5.5.3"
+    "typescript": "<5.5.4"
   },
   "packageManager": "yarn@4.1.1",
   "engines": {
