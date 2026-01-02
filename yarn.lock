@@ -12,22 +12,39 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@actions/core@npm:1.10.1":
-  version: 1.10.1
-  resolution: "@actions/core@npm:1.10.1"
+"@actions/core@npm:2.0.1":
+  version: 2.0.1
+  resolution: "@actions/core@npm:2.0.1"
   dependencies:
-    "@actions/http-client": "npm:^2.0.1"
-    uuid: "npm:^8.3.2"
-  checksum: 10c0/7a61446697a23dcad3545cf0634dedbdedf20ae9a0ee6ee977554589a15deb4a93593ee48a41258933d58ce0778f446b0d2c162b60750956fb75e0b9560fb832
+    "@actions/exec": "npm:^2.0.0"
+    "@actions/http-client": "npm:^3.0.0"
+  checksum: 10c0/710ed76ae43759d5e9eee9217f1ca80a7ab2bda0dc8038b777871d5c745df773cb7a091b7c4da91955f6a06f9df91c36696e2f8458768346913fa6f829d0b088
   languageName: node
   linkType: hard
 
-"@actions/http-client@npm:^2.0.1":
-  version: 2.1.0
-  resolution: "@actions/http-client@npm:2.1.0"
+"@actions/exec@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@actions/exec@npm:2.0.0"
+  dependencies:
+    "@actions/io": "npm:^2.0.0"
+  checksum: 10c0/21c7d51e8bd457e39daced34df05ba2b20365b66f3b00e838fc109a3f774d95b12a2aeeb5736d8a1ff1e50bbbea60cb6fb40b550c92d2c2e3ed74b9d6bdfc18b
+  languageName: node
+  linkType: hard
+
+"@actions/http-client@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "@actions/http-client@npm:3.0.0"
   dependencies:
     tunnel: "npm:^0.0.6"
-  checksum: 10c0/3936947d05c394ec3365a8757e13bd8cd0fb124cc1503254e46a95b2b8342fbf3f2a3c13d56d37e1d6705939cf2808dc64b4a38b75f83995fdc2e878e3aef89c
+    undici: "npm:^5.28.5"
+  checksum: 10c0/2d4452c7dbf36c82ad9117c03c3f7a5c48be15aa5b01f17d0dc6b1eb580f3fac2127f5be33a627c1fbeb117e22db493aa760a0fcd62846cea7d914e702540fe3
+  languageName: node
+  linkType: hard
+
+"@actions/io@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@actions/io@npm:2.0.0"
+  checksum: 10c0/b66170cbce7e19b9560f445ebbe0af2d031857efbe759020708745384d7a94b738dc09df2636e0c3049a9172c7b293d09f8a882bf5c25cc86bd19844cef61c41
   languageName: node
   linkType: hard
 
@@ -972,6 +989,13 @@ __metadata:
   version: 8.57.1
   resolution: "@eslint/js@npm:8.57.1"
   checksum: 10c0/b489c474a3b5b54381c62e82b3f7f65f4b8a5eaaed126546520bf2fede5532a8ed53212919fed1e9048dcf7f37167c8561d58d0ba4492a4244004e7793805223
+  languageName: node
+  linkType: hard
+
+"@fastify/busboy@npm:^2.0.0":
+  version: 2.1.1
+  resolution: "@fastify/busboy@npm:2.1.1"
+  checksum: 10c0/6f8027a8cba7f8f7b736718b013f5a38c0476eea67034c94a0d3c375e2b114366ad4419e6a6fa7ffc2ef9c6d3e0435d76dd584a7a1cbac23962fda7650b579e3
   languageName: node
   linkType: hard
 
@@ -2456,7 +2480,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "assume-aws-role-from-gcp-action@workspace:."
   dependencies:
-    "@actions/core": "npm:1.10.1"
+    "@actions/core": "npm:2.0.1"
     "@aws-sdk/client-sts": "npm:3.540.0"
     "@aws-sdk/credential-provider-node": "npm:^3.540.0"
     "@types/node": "npm:^20"
@@ -6657,6 +6681,15 @@ __metadata:
   version: 5.26.5
   resolution: "undici-types@npm:5.26.5"
   checksum: 10c0/bb673d7876c2d411b6eb6c560e0c571eef4a01c1c19925175d16e3a30c4c428181fb8d7ae802a261f283e4166a0ac435e2f505743aa9e45d893f9a3df017b501
+  languageName: node
+  linkType: hard
+
+"undici@npm:^5.28.5":
+  version: 5.29.0
+  resolution: "undici@npm:5.29.0"
+  dependencies:
+    "@fastify/busboy": "npm:^2.0.0"
+  checksum: 10c0/e4e4d631ca54ee0ad82d2e90e7798fa00a106e27e6c880687e445cc2f13b4bc87c5eba2a88c266c3eecffb18f26e227b778412da74a23acc374fca7caccec49b
   languageName: node
   linkType: hard
 
