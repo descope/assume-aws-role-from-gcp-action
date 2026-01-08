@@ -8,7 +8,7 @@
     "build": "tsc",
     "format": "prettier --write '**/*.ts'",
     "format-check": "prettier --check '**/*.ts'",
-    "lint": "eslint src/**/*.ts",
+    "lint": "eslint .",
     "package": "ncc build src/main.ts --source-map --license licenses.txt",
     "test": "jest",
     "start": "ts-node src/main.ts",
@@ -49,6 +49,7 @@
     "brace-expansion": "^2.0.2"
   },
   "devDependencies": {
+    "@eslint/js": "^9.17.0",
     "@types/node": "^20",
     "@typescript-eslint/eslint-plugin": "8.19.1",
     "@typescript-eslint/parser": "8.19.1",
@@ -63,7 +64,8 @@
     "prettier": "3.6.2",
     "ts-jest": "29.4.0",
     "ts-node": "^10.9.2",
-    "typescript": "<5.8.4"
+    "typescript": "<5.8.4",
+    "typescript-eslint": "^8.19.1"
   },
   "packageManager": "yarn@4.1.1",
   "engines": {

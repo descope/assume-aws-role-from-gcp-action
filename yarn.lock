@@ -1051,7 +1051,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/js@npm:^9.14.0":
+"@eslint/js@npm:^9.14.0, @eslint/js@npm:^9.17.0":
   version: 9.39.2
   resolution: "@eslint/js@npm:9.39.2"
   checksum: 10c0/00f51c52b04ac79faebfaa65a9652b2093b9c924e945479f1f3945473f78aee83cbc76c8d70bbffbf06f7024626575b16d97b66eab16182e1d0d39daff2f26f5
@@ -2750,6 +2750,7 @@ __metadata:
     "@actions/core": "npm:1.10.1"
     "@aws-sdk/client-sts": "npm:3.540.0"
     "@aws-sdk/credential-provider-node": "npm:^3.540.0"
+    "@eslint/js": "npm:^9.17.0"
     "@types/node": "npm:^20"
     "@typescript-eslint/eslint-plugin": "npm:8.19.1"
     "@typescript-eslint/parser": "npm:8.19.1"
@@ -2766,6 +2767,7 @@ __metadata:
     ts-jest: "npm:29.4.0"
     ts-node: "npm:^10.9.2"
     typescript: "npm:<5.8.4"
+    typescript-eslint: "npm:^8.19.1"
   languageName: unknown
   linkType: soft
 
@@ -7838,7 +7840,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript-eslint@npm:^8.14.0":
+"typescript-eslint@npm:^8.14.0, typescript-eslint@npm:^8.19.1":
   version: 8.52.0
   resolution: "typescript-eslint@npm:8.52.0"
   dependencies:
