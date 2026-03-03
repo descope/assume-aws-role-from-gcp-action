@@ -31,7 +31,7 @@
     "@actions/core": "1.11.1",
     "@aws-sdk/client-sts": "3.986.0",
     "@aws-sdk/credential-provider-node": "^3.540.0",
-    "googleapis": "170.0.0"
+    "googleapis": "170.1.0"
   },
   "resolutions": {
     "@babel/traverse": "^7.23.2",
