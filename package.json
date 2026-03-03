@@ -28,7 +28,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "1.11.1",
+    "@actions/core": "2.0.3",
     "@aws-sdk/client-sts": "3.986.0",
     "@aws-sdk/credential-provider-node": "^3.540.0",
     "googleapis": "170.1.0"
