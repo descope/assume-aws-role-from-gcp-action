@@ -93,9 +93,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@aws-sdk/client-sts@npm:3.990.0":
-  version: 3.990.0
-  resolution: "@aws-sdk/client-sts@npm:3.990.0"
+"@aws-sdk/client-sts@npm:3.991.0":
+  version: 3.991.0
+  resolution: "@aws-sdk/client-sts@npm:3.991.0"
   dependencies:
     "@aws-crypto/sha256-browser": "npm:5.2.0"
     "@aws-crypto/sha256-js": "npm:5.2.0"
@@ -107,7 +107,7 @@ __metadata:
     "@aws-sdk/middleware-user-agent": "npm:^3.972.10"
     "@aws-sdk/region-config-resolver": "npm:^3.972.3"
     "@aws-sdk/types": "npm:^3.973.1"
-    "@aws-sdk/util-endpoints": "npm:3.990.0"
+    "@aws-sdk/util-endpoints": "npm:3.991.0"
     "@aws-sdk/util-user-agent-browser": "npm:^3.972.3"
     "@aws-sdk/util-user-agent-node": "npm:^3.972.8"
     "@smithy/config-resolver": "npm:^4.4.6"
@@ -136,7 +136,7 @@ __metadata:
     "@smithy/util-retry": "npm:^4.2.8"
     "@smithy/util-utf8": "npm:^4.2.0"
     tslib: "npm:^2.6.2"
-  checksum: 10c0/89d4879011780d4da25b3a245e27e45bd85aeaab122c78624a8a435f68dd4f5e54b07bf27e5a2128b0cad665818c4e350d15ab6a56fb1334eb567a84a5a00c41
+  checksum: 10c0/ab7e669326d00d740a671f5b653c601401863c99ade724cc818e1fde9bbe27a4bed83a0b9483fea1bc10f7e84155ae1925cbd8073c28e5db26868e362a4e058b
   languageName: node
   linkType: hard
 
@@ -430,16 +430,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@aws-sdk/util-endpoints@npm:3.990.0":
-  version: 3.990.0
-  resolution: "@aws-sdk/util-endpoints@npm:3.990.0"
+"@aws-sdk/util-endpoints@npm:3.991.0":
+  version: 3.991.0
+  resolution: "@aws-sdk/util-endpoints@npm:3.991.0"
   dependencies:
     "@aws-sdk/types": "npm:^3.973.1"
     "@smithy/types": "npm:^4.12.0"
     "@smithy/url-parser": "npm:^4.2.8"
     "@smithy/util-endpoints": "npm:^3.2.8"
     tslib: "npm:^2.6.2"
-  checksum: 10c0/f345d8ac45e9b82176a47569611d6caf9dc5da6968ee65dd265aaec54361717104c817c1a55ce52df010fff6352707477322a762084dee349fa5e194766c7e79
+  checksum: 10c0/d98592ec279b5899f4aba132c1b93e507d5a56b446b34f837b185896b8f140e97adf45b27652569d33d51512485e5b837d27f671e9e871600732d21f44c5751e
   languageName: node
   linkType: hard
 
@@ -2817,7 +2817,7 @@ __metadata:
   resolution: "assume-aws-role-from-gcp-action@workspace:."
   dependencies:
     "@actions/core": "npm:1.11.1"
-    "@aws-sdk/client-sts": "npm:3.990.0"
+    "@aws-sdk/client-sts": "npm:3.991.0"
     "@aws-sdk/credential-provider-node": "npm:^3.540.0"
     "@eslint/js": "npm:^9.17.0"
     "@types/node": "npm:^24.0.0"
