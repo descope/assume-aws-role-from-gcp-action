@@ -93,23 +93,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@aws-sdk/client-sts@npm:3.1020.0":
-  version: 3.1020.0
-  resolution: "@aws-sdk/client-sts@npm:3.1020.0"
+"@aws-sdk/client-sts@npm:3.1021.0":
+  version: 3.1021.0
+  resolution: "@aws-sdk/client-sts@npm:3.1021.0"
   dependencies:
     "@aws-crypto/sha256-browser": "npm:5.2.0"
     "@aws-crypto/sha256-js": "npm:5.2.0"
     "@aws-sdk/core": "npm:^3.973.26"
-    "@aws-sdk/credential-provider-node": "npm:^3.972.28"
+    "@aws-sdk/credential-provider-node": "npm:^3.972.29"
     "@aws-sdk/middleware-host-header": "npm:^3.972.8"
     "@aws-sdk/middleware-logger": "npm:^3.972.8"
     "@aws-sdk/middleware-recursion-detection": "npm:^3.972.9"
-    "@aws-sdk/middleware-user-agent": "npm:^3.972.27"
+    "@aws-sdk/middleware-user-agent": "npm:^3.972.28"
     "@aws-sdk/region-config-resolver": "npm:^3.972.10"
     "@aws-sdk/types": "npm:^3.973.6"
     "@aws-sdk/util-endpoints": "npm:^3.996.5"
     "@aws-sdk/util-user-agent-browser": "npm:^3.972.8"
-    "@aws-sdk/util-user-agent-node": "npm:^3.973.13"
+    "@aws-sdk/util-user-agent-node": "npm:^3.973.14"
     "@smithy/config-resolver": "npm:^4.4.13"
     "@smithy/core": "npm:^3.23.13"
     "@smithy/fetch-http-handler": "npm:^5.3.15"
@@ -117,7 +117,7 @@ __metadata:
     "@smithy/invalid-dependency": "npm:^4.2.12"
     "@smithy/middleware-content-length": "npm:^4.2.12"
     "@smithy/middleware-endpoint": "npm:^4.4.28"
-    "@smithy/middleware-retry": "npm:^4.4.45"
+    "@smithy/middleware-retry": "npm:^4.4.46"
     "@smithy/middleware-serde": "npm:^4.2.16"
     "@smithy/middleware-stack": "npm:^4.2.12"
     "@smithy/node-config-provider": "npm:^4.3.12"
@@ -133,10 +133,10 @@ __metadata:
     "@smithy/util-defaults-mode-node": "npm:^4.2.48"
     "@smithy/util-endpoints": "npm:^3.3.3"
     "@smithy/util-middleware": "npm:^4.2.12"
-    "@smithy/util-retry": "npm:^4.2.12"
+    "@smithy/util-retry": "npm:^4.2.13"
     "@smithy/util-utf8": "npm:^4.2.2"
     tslib: "npm:^2.6.2"
-  checksum: 10c0/8d50b60b8a15f6391faad1a8a6bd816e2d9c5c885d9d4ce287ee376649b54a36c3cb246398e945e9eb2fdf6bbcf7070787783d98ef05e6d51f0252ce318c0cd9
+  checksum: 10c0/6b1550b42a4f7e9e3f5a95daeb5bf40379ab7a9190e6ff73ed242d097e60c964fbccdc3964f00456d93fa816e607e165495f092d16d280f4d5c822524e89a2cb
   languageName: node
   linkType: hard
 
@@ -230,7 +230,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@aws-sdk/credential-provider-node@npm:^3.540.0, @aws-sdk/credential-provider-node@npm:^3.972.28":
+"@aws-sdk/credential-provider-node@npm:^3.540.0, @aws-sdk/credential-provider-node@npm:^3.972.29":
   version: 3.972.33
   resolution: "@aws-sdk/credential-provider-node@npm:3.972.33"
   dependencies:
@@ -353,7 +353,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@aws-sdk/middleware-user-agent@npm:^3.972.27, @aws-sdk/middleware-user-agent@npm:^3.972.32":
+"@aws-sdk/middleware-user-agent@npm:^3.972.28, @aws-sdk/middleware-user-agent@npm:^3.972.32":
   version: 3.972.32
   resolution: "@aws-sdk/middleware-user-agent@npm:3.972.32"
   dependencies:
@@ -511,7 +511,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@aws-sdk/util-user-agent-node@npm:^3.973.13, @aws-sdk/util-user-agent-node@npm:^3.973.18":
+"@aws-sdk/util-user-agent-node@npm:^3.973.14, @aws-sdk/util-user-agent-node@npm:^3.973.18":
   version: 3.973.18
   resolution: "@aws-sdk/util-user-agent-node@npm:3.973.18"
   dependencies:
@@ -1666,7 +1666,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@smithy/middleware-retry@npm:^4.4.45, @smithy/middleware-retry@npm:^4.5.3":
+"@smithy/middleware-retry@npm:^4.4.46, @smithy/middleware-retry@npm:^4.5.3":
   version: 4.5.4
   resolution: "@smithy/middleware-retry@npm:4.5.4"
   dependencies:
@@ -1956,7 +1956,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@smithy/util-retry@npm:^4.2.12, @smithy/util-retry@npm:^4.3.2, @smithy/util-retry@npm:^4.3.3":
+"@smithy/util-retry@npm:^4.2.13, @smithy/util-retry@npm:^4.3.2, @smithy/util-retry@npm:^4.3.3":
   version: 4.3.3
   resolution: "@smithy/util-retry@npm:4.3.3"
   dependencies:
@@ -2841,7 +2841,7 @@ __metadata:
   resolution: "assume-aws-role-from-gcp-action@workspace:."
   dependencies:
     "@actions/core": "npm:1.11.1"
-    "@aws-sdk/client-sts": "npm:3.1020.0"
+    "@aws-sdk/client-sts": "npm:3.1021.0"
     "@aws-sdk/credential-provider-node": "npm:^3.540.0"
     "@eslint/js": "npm:^9.17.0"
     "@types/node": "npm:^24.0.0"
