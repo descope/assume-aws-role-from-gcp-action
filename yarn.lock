@@ -104,14 +104,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@aws-sdk/client-sts@npm:3.1059.0":
-  version: 3.1059.0
-  resolution: "@aws-sdk/client-sts@npm:3.1059.0"
+"@aws-sdk/client-sts@npm:3.1060.0":
+  version: 3.1060.0
+  resolution: "@aws-sdk/client-sts@npm:3.1060.0"
   dependencies:
     "@aws-crypto/sha256-browser": "npm:5.2.0"
     "@aws-crypto/sha256-js": "npm:5.2.0"
-    "@aws-sdk/core": "npm:^3.974.16"
-    "@aws-sdk/credential-provider-node": "npm:^3.972.49"
+    "@aws-sdk/core": "npm:^3.974.17"
+    "@aws-sdk/credential-provider-node": "npm:^3.972.50"
     "@aws-sdk/signature-v4-multi-region": "npm:^3.996.31"
     "@aws-sdk/types": "npm:^3.973.10"
     "@smithy/core": "npm:^3.24.6"
@@ -119,11 +119,11 @@ __metadata:
     "@smithy/node-http-handler": "npm:^4.7.6"
     "@smithy/types": "npm:^4.14.3"
     tslib: "npm:^2.6.2"
-  checksum: 10c0/1f9792380df302fc82d8faccb002467062f47dae1f87fb1a89b072b12750448b69f173da1b4d05f4b0ae464cf26a8f3166c4b72b27c78f7b694ef76d841a91ac
+  checksum: 10c0/ee4cba23d46857d1e3273e24c987707021d1446aa082eef28e8f545e376f94890b802364492326b2a4b7955eee1a54677532cf4ca00668cc7c9f213746df3e7f
   languageName: node
   linkType: hard
 
-"@aws-sdk/core@npm:^3.974.16, @aws-sdk/core@npm:^3.974.23":
+"@aws-sdk/core@npm:^3.974.17, @aws-sdk/core@npm:^3.974.23":
   version: 3.974.23
   resolution: "@aws-sdk/core@npm:3.974.23"
   dependencies:
@@ -202,7 +202,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@aws-sdk/credential-provider-node@npm:^3.540.0, @aws-sdk/credential-provider-node@npm:^3.972.49":
+"@aws-sdk/credential-provider-node@npm:^3.540.0, @aws-sdk/credential-provider-node@npm:^3.972.50":
   version: 3.972.58
   resolution: "@aws-sdk/credential-provider-node@npm:3.972.58"
   dependencies:
@@ -2250,7 +2250,7 @@ __metadata:
   resolution: "assume-aws-role-from-gcp-action@workspace:."
   dependencies:
     "@actions/core": "npm:1.11.1"
-    "@aws-sdk/client-sts": "npm:3.1059.0"
+    "@aws-sdk/client-sts": "npm:3.1060.0"
     "@aws-sdk/credential-provider-node": "npm:^3.540.0"
     "@eslint/js": "npm:^9.17.0"
     "@types/node": "npm:^24.0.0"
