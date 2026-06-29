@@ -104,26 +104,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@aws-sdk/client-sts@npm:3.1063.0":
-  version: 3.1063.0
-  resolution: "@aws-sdk/client-sts@npm:3.1063.0"
+"@aws-sdk/client-sts@npm:3.1064.0":
+  version: 3.1064.0
+  resolution: "@aws-sdk/client-sts@npm:3.1064.0"
   dependencies:
     "@aws-crypto/sha256-browser": "npm:5.2.0"
     "@aws-crypto/sha256-js": "npm:5.2.0"
-    "@aws-sdk/core": "npm:^3.974.18"
-    "@aws-sdk/credential-provider-node": "npm:^3.972.52"
-    "@aws-sdk/signature-v4-multi-region": "npm:^3.996.32"
-    "@aws-sdk/types": "npm:^3.973.11"
+    "@aws-sdk/core": "npm:^3.974.19"
+    "@aws-sdk/credential-provider-node": "npm:^3.972.53"
+    "@aws-sdk/signature-v4-multi-region": "npm:^3.996.33"
+    "@aws-sdk/types": "npm:^3.973.12"
     "@smithy/core": "npm:^3.24.6"
     "@smithy/fetch-http-handler": "npm:^5.4.6"
     "@smithy/node-http-handler": "npm:^4.7.6"
     "@smithy/types": "npm:^4.14.3"
     tslib: "npm:^2.6.2"
-  checksum: 10c0/0cc49fa3ff9ab305e5cf907f55dceb5757431c9c6de3a6fc995ff50df02465320ca569fb5dca4f620bb91a87e50929edf21c19952bdfb90f8fa0063e757069e0
+  checksum: 10c0/40f4215894ce097212698eb9fd7d8d54bf0c53c1c6a55661079ee51203fc9e67743bd85d511e1d0a1cd69fddeacb7c3a39ed26865e6f2c7b44813b0b82c8f07e
   languageName: node
   linkType: hard
 
-"@aws-sdk/core@npm:^3.974.18, @aws-sdk/core@npm:^3.974.23":
+"@aws-sdk/core@npm:^3.974.19, @aws-sdk/core@npm:^3.974.23":
   version: 3.974.23
   resolution: "@aws-sdk/core@npm:3.974.23"
   dependencies:
@@ -202,7 +202,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@aws-sdk/credential-provider-node@npm:^3.540.0, @aws-sdk/credential-provider-node@npm:^3.972.52":
+"@aws-sdk/credential-provider-node@npm:^3.540.0, @aws-sdk/credential-provider-node@npm:^3.972.53":
   version: 3.972.58
   resolution: "@aws-sdk/credential-provider-node@npm:3.972.58"
   dependencies:
@@ -281,7 +281,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@aws-sdk/signature-v4-multi-region@npm:^3.996.32, @aws-sdk/signature-v4-multi-region@npm:^3.996.35":
+"@aws-sdk/signature-v4-multi-region@npm:^3.996.33, @aws-sdk/signature-v4-multi-region@npm:^3.996.35":
   version: 3.996.35
   resolution: "@aws-sdk/signature-v4-multi-region@npm:3.996.35"
   dependencies:
@@ -307,7 +307,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@aws-sdk/types@npm:^3.222.0, @aws-sdk/types@npm:^3.973.11, @aws-sdk/types@npm:^3.973.13":
+"@aws-sdk/types@npm:^3.222.0, @aws-sdk/types@npm:^3.973.12, @aws-sdk/types@npm:^3.973.13":
   version: 3.973.13
   resolution: "@aws-sdk/types@npm:3.973.13"
   dependencies:
@@ -2250,7 +2250,7 @@ __metadata:
   resolution: "assume-aws-role-from-gcp-action@workspace:."
   dependencies:
     "@actions/core": "npm:1.11.1"
-    "@aws-sdk/client-sts": "npm:3.1063.0"
+    "@aws-sdk/client-sts": "npm:3.1064.0"
     "@aws-sdk/credential-provider-node": "npm:^3.540.0"
     "@eslint/js": "npm:^9.17.0"
     "@types/node": "npm:^24.0.0"
