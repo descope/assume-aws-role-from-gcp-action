@@ -93,9 +93,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@aws-sdk/client-sts@npm:3.1067.0":
-  version: 3.1067.0
-  resolution: "@aws-sdk/client-sts@npm:3.1067.0"
+"@aws-sdk/client-sts@npm:3.1068.0":
+  version: 3.1068.0
+  resolution: "@aws-sdk/client-sts@npm:3.1068.0"
   dependencies:
     "@aws-crypto/sha256-browser": "npm:5.2.0"
     "@aws-crypto/sha256-js": "npm:5.2.0"
@@ -108,7 +108,7 @@ __metadata:
     "@smithy/node-http-handler": "npm:^4.7.6"
     "@smithy/types": "npm:^4.14.3"
     tslib: "npm:^2.6.2"
-  checksum: 10c0/2f678a2a9341b75918ec1fc2bc959e8e3192c88b56ffdaeeec73fc8065cc55f3d8675651a5ec53600b35053408d466b5f856c1f2f2cad67bf8e853cfc0eef02a
+  checksum: 10c0/4a49aba7e6954ab9bf62641c2fa3937d657ba61f075d601cbed88447f52d235159f047bbe8940ee2d53b66dde43ea500e8112b7de8a86be9752387e9c9094b4d
   languageName: node
   linkType: hard
 
@@ -2236,7 +2236,7 @@ __metadata:
   resolution: "assume-aws-role-from-gcp-action@workspace:."
   dependencies:
     "@actions/core": "npm:1.11.1"
-    "@aws-sdk/client-sts": "npm:3.1067.0"
+    "@aws-sdk/client-sts": "npm:3.1068.0"
     "@aws-sdk/credential-provider-node": "npm:^3.540.0"
     "@eslint/js": "npm:^9.17.0"
     "@types/node": "npm:^24.0.0"
