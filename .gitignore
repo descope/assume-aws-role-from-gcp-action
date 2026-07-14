@@ -100,3 +100,6 @@ lib/**/*
 
 # google credentials
 *credentials.json
+
+# Yarn install state cache
+.yarn/install-state.gz
