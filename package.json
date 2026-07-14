@@ -51,8 +51,8 @@
   "devDependencies": {
     "@eslint/js": "^9.17.0",
     "@types/node": "^24.0.0",
-    "@typescript-eslint/eslint-plugin": "8.61.1",
-    "@typescript-eslint/parser": "8.61.1",
+    "@typescript-eslint/eslint-plugin": "8.62.0",
+    "@typescript-eslint/parser": "8.62.0",
     "@vercel/ncc": "0.44.0",
     "dotenv": "^17.0.0",
     "eslint": "9.39.4",
@@ -69,6 +69,6 @@
   },
   "packageManager": "yarn@4.17.0",
   "engines": {
-    "node": "^20"
+    "node": "^24.0.0"
   }
 }
