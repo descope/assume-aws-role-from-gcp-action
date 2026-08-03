@@ -15,6 +15,8 @@ async function run(): Promise<void> {
 
     core.debug('Getting inputs')
     const roleToAssume = core.getInput('role_to_assume', {required: true})
+    const arnPattern = /^arn:aws:iam::\d{12}:role\/[\w+=,.@/-]{1,512}$/
+    if (!arnPattern.test(roleToAssume)) throw new Error(`Invalid role ARN format: ${roleToAssume}`)
     const roleSessionName = core.getInput('role_session_name') ?? 'GithubActions'
     const roleDurationSeconds = core.getInput('role_duration_seconds') ?? '900'
     const audience = 'actions.github.com'
