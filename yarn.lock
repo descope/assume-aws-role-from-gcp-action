@@ -47,12 +47,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@aws-sdk/client-sts@npm:3.1088.0":
-  version: 3.1088.0
-  resolution: "@aws-sdk/client-sts@npm:3.1088.0"
+"@aws-sdk/client-sts@npm:3.1089.0":
+  version: 3.1089.0
+  resolution: "@aws-sdk/client-sts@npm:3.1089.0"
   dependencies:
     "@aws-sdk/core": "npm:^3.975.3"
-    "@aws-sdk/credential-provider-node": "npm:^3.972.69"
+    "@aws-sdk/credential-provider-node": "npm:^3.972.70"
     "@aws-sdk/signature-v4-multi-region": "npm:^3.996.41"
     "@aws-sdk/types": "npm:^3.974.2"
     "@smithy/core": "npm:^3.29.4"
@@ -60,7 +60,7 @@ __metadata:
     "@smithy/node-http-handler": "npm:^4.9.6"
     "@smithy/types": "npm:^4.16.1"
     tslib: "npm:^2.6.2"
-  checksum: 10c0/ebb3282a1ef2dfb1e0f4ea629d0ee3624565bedef346b19250fe1d8aa88f8f3ce10094316de5af92a3593245d8dcb95aa7135a09cc775a755d281b8d02265959
+  checksum: 10c0/80af83194d0f397acca5b7a7f04a3ada2890e831f895720d0822a29d94b53a7c73b4297cab0f598181030712be14aa4f6f192d71c522d22f84d206ed264dc46e
   languageName: node
   linkType: hard
 
@@ -143,7 +143,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@aws-sdk/credential-provider-node@npm:^3.540.0, @aws-sdk/credential-provider-node@npm:^3.972.69":
+"@aws-sdk/credential-provider-node@npm:^3.540.0, @aws-sdk/credential-provider-node@npm:^3.972.70":
   version: 3.972.78
   resolution: "@aws-sdk/credential-provider-node@npm:3.972.78"
   dependencies:
@@ -2150,7 +2150,7 @@ __metadata:
   resolution: "assume-aws-role-from-gcp-action@workspace:."
   dependencies:
     "@actions/core": "npm:1.11.1"
-    "@aws-sdk/client-sts": "npm:3.1088.0"
+    "@aws-sdk/client-sts": "npm:3.1089.0"
     "@aws-sdk/credential-provider-node": "npm:^3.540.0"
     "@eslint/js": "npm:^9.17.0"
     "@types/node": "npm:^24.0.0"
