@@ -2162,7 +2162,7 @@ __metadata:
     eslint-plugin-github: "npm:^6.0.0"
     eslint-plugin-jest: "npm:29.16.0"
     eslint-plugin-prettier: "npm:^5.1.3"
-    googleapis: "npm:170.1.0"
+    googleapis: "npm:174.0.1"
     jest: "npm:30.4.2"
     js-yaml: "npm:4.3.1"
     prettier: "npm:3.9.6"
@@ -3708,7 +3708,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"google-auth-library@npm:^10.1.0, google-auth-library@npm:^10.2.0":
+"google-auth-library@npm:10.5.0, google-auth-library@npm:^10.1.0":
   version: 10.5.0
   resolution: "google-auth-library@npm:10.5.0"
   dependencies:
@@ -3743,13 +3743,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"googleapis@npm:170.1.0":
-  version: 170.1.0
-  resolution: "googleapis@npm:170.1.0"
+"googleapis@npm:174.0.1":
+  version: 174.0.1
+  resolution: "googleapis@npm:174.0.1"
   dependencies:
-    google-auth-library: "npm:^10.2.0"
+    google-auth-library: "npm:10.5.0"
     googleapis-common: "npm:^8.0.0"
-  checksum: 10c0/2ff2c48d5e7aadffd497cec8a302a617a326882a54a679c245a7c364077febe4cdefcb407323d489d965456662609f682830f528fa5b9b3050abbd1ca52367d8
+  checksum: 10c0/8c1a58526ef4b2edbb77b1caddbe01370a34e7af7ac0e2def0e3bbd299260bd5f059e7eb07799535e64926e65731c67e91b6763de8cd3338b249ce3a6171adf3
   languageName: node
   linkType: hard
 
