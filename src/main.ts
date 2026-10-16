@@ -22,7 +22,6 @@ async function run(): Promise<void> {
 
     core.debug(
       `Inputs: ${JSON.stringify({
-        roleToAssume,
         roleSessionName,
         roleDurationSeconds,
         audience,
@@ -62,7 +61,7 @@ async function run(): Promise<void> {
       }
     }).getCallerIdentity({})
 
-    core.info(`Assumed role: ${Arn}`)
+    core.debug('Successfully assumed role')
     core.debug('Exporting variables')
     core.exportVariable('AWS_ACCESS_KEY_ID', Credentials.AccessKeyId)
     core.exportVariable('AWS_SECRET_ACCESS_KEY', Credentials.SecretAccessKey)
