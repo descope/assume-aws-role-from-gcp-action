@@ -2305,7 +2305,7 @@ __metadata:
     dotenv: "npm:^18.0.0"
     eslint: "npm:9.39.5"
     eslint-plugin-github: "npm:^6.0.0"
-    eslint-plugin-jest: "npm:29.16.9"
+    eslint-plugin-jest: "npm:29.16.11"
     eslint-plugin-prettier: "npm:^5.1.3"
     googleapis: "npm:170.1.0"
     jest: "npm:30.5.2"
@@ -3253,9 +3253,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest@npm:29.16.9":
-  version: 29.16.9
-  resolution: "eslint-plugin-jest@npm:29.16.9"
+"eslint-plugin-jest@npm:29.16.11":
+  version: 29.16.11
+  resolution: "eslint-plugin-jest@npm:29.16.11"
   dependencies:
     "@typescript-eslint/utils": "npm:^8.0.0"
   peerDependencies:
@@ -3270,7 +3270,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10c0/77e4b77bbaf95b83cc5bb9bfcd536301d1946eb4407496992a83f856d283b3f839f41827aecd3110687b7cf6477e441e20d0552173d7c50bb3424b1ed55211f9
+  checksum: 10c0/455c041a4e696bea936b66ddc7276ea982b20b67664e61023334d8b5391ef0daab2dd3b41a611f95b0dabe5219cd0b4c32e9c29238c31f284294c620e983369e
   languageName: node
   linkType: hard
 
